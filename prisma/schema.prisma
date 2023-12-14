@@ -42,3 +42,13 @@ model PlanejarAvancar {
   prompt String
   createdAt DateTime @default(now())
 }
+
+model HistoricoAcoes {
+  id Int @id
+  anoEscolar Int
+  componenteCurricular Int
+  habilidadeDesenvolvida Int
+  empenhoAluno Int
+  planejarAvancar Int
+  createdAt DateTime @default(now())
+}
